@@ -1,6 +1,6 @@
 <B>OpenCONVOS - Privacy-enhanced directory that stores conversations securely</b>
 
-![alt tag](https://raw.githubusercontent.com/Web2ART/openconvos/master/main.png)
+![alt tag](https://raw.githubusercontent.com/fsiamp/openconvos/master/main.png)
 
 OpenCONVOS is a collaborative and open-source project that aims to create and provide a privacy-enhanced system in which conversations of any kind can be stored securely and make them available for free. 
 
@@ -12,8 +12,8 @@ If privacy feature is enabled then names of speakers will be replaced by random 
 There is a daily upload limit (250 conversations per day) in order to be able to control possible site abuse and avoid spamming.
 If this limit has been reached then you will still be able to submit conversations and we will publish them afterwards. 
 
-![alt tag](https://raw.githubusercontent.com/Web2ART/openconvos/master/assets/image.png)
+![alt tag](https://raw.githubusercontent.com/fsiamp/openconvos/master/assets/conversation.png)
 
-![alt tag](https://raw.githubusercontent.com/Web2ART/openconvos/master/assets/upload.png)
+![alt tag](https://raw.githubusercontent.com/fsiamp/openconvos/master/assets/upload.png)
 
-![alt tag](https://raw.githubusercontent.com/Web2ART/openconvos/master/assets/example.png)
+![alt tag](https://raw.githubusercontent.com/fsiamp/openconvos/master/assets/example.png)
