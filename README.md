@@ -13,6 +13,4 @@ If this limit has been reached then you will still be able to submit conversatio
 
 ![alt tag](https://raw.githubusercontent.com/Softdonkey/openconvos/master/assets/conversation.png)
 
-![alt tag](https://raw.githubusercontent.com/Softdonkey/openconvos/master/assets/upload.png)
-
 ![alt tag](https://raw.githubusercontent.com/Softdonkey/openconvos/master/assets/example.png)
