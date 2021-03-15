@@ -1,4 +1,4 @@
-<B>OpenCONVOS - Discover and share conversations!</b>
+<B>OpenCONVOS - Discover and submit conversations!</b>
 
 ![alt tag](https://raw.githubusercontent.com/Softdonkey/openconvos/master/main.png)
 
