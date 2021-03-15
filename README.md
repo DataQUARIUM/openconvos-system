@@ -2,6 +2,8 @@
 
 ![alt tag](https://raw.githubusercontent.com/Softdonkey/openconvos/master/main.png)
 
+Google Play URL: https://play.google.com/store/apps/details?id=appinventor.ai_fsiamp.OpenCONVOS
+
 OpenCONVOS is a collaborative and open-source project that aims to create and provide a user-contributed system in which conversations of any kind can be stored securely and make them available for free. 
 
 With OpenCONVOS everyone is able to search recent or old discussions of friends or other persons. Multiple types of content are supported (text, image and audio/video). 
