@@ -1,6 +1,6 @@
 <B>OpenCONVOS - Discover and submit conversations!</b>
 
-![alt tag](https://raw.githubusercontent.com/Softdonkey/openconvos/master/main.png)
+![alt tag](https://raw.githubusercontent.com/fsiamp/openconvos/master/main.png)
 
 <b>Google Play URL</b>: https://play.google.com/store/apps/details?id=appinventor.ai_fsiamp.OpenCONVOS
 
@@ -10,6 +10,6 @@ With OpenCONVOS everyone is able to search recent or old discussions of friends 
 
 At the same time, OpenCONVOS allows users to submit conversations directly to the system.
 
-![alt tag](https://raw.githubusercontent.com/Softdonkey/openconvos/master/assets/conversation.png)
+![alt tag](https://raw.githubusercontent.com/fsiamp/openconvos/master/assets/conversation.png)
 
-![alt tag](https://raw.githubusercontent.com/Softdonkey/openconvos/master/assets/example.png)
+![alt tag](https://raw.githubusercontent.com/fsiamp/openconvos/master/assets/example.png)
