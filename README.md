@@ -1,4 +1,4 @@
-<B>OpenCONVOS - Discover and submit conversations!</b>
+<B>OpenCONVOS - Privacy-enhanced directory that enables storing conversations securely</b>
 
 ![alt tag](https://raw.githubusercontent.com/fsiamp/openconvos/master/main.png)
 
