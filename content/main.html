@@ -4,13 +4,12 @@
 <html lang="en">
 <link rel="icon" 
       type="image/png" 
-      href="https://raw.githubusercontent.com/Softdonkey/openconvos/main/assets/favicon.png">
-
-
+      href="https://raw.githubusercontent.com/fsiamp/openconvos/main/assets/favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <script src="https://code.jquery.com/jquery-latest.min.js"
         type="text/javascript"></script>
 <script>function handleThis(formElm){
-    window.location="https://openconvos-data.tumblr.com/tagged/"+formElm.q.value+"";
+    window.location="https://openconvos.org/tagged/"+formElm.q.value+"";
     return false;
 }</script>
 <script>
@@ -41,9 +40,12 @@ $(document).ready(function(){
 {block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
 
 	<style type="text/css">
-.tmblr-iframe--gdpr-banner {
- display:none !important;
-}
+  
+ 
+   .tmblr-iframe--gdpr-banner {
+        display:none !important;
+    }
+  
   
 img {
     
@@ -60,7 +62,7 @@ overflow-x: hidden;
 margin-left:10px;
 margin-right:10px;
 font-family:Verdana, Geneva, sans-serif;
-font-size:16px;
+font-size:16px !important;
 overflow-y:scroll;
 word-wrap:break-word;
 max-width: 100%; 
@@ -122,6 +124,11 @@ iframe { max-width: 100%; }
     }
 }    
 
+@media (max-width: 540px) {
+    body {
+        font-size:16px !important;
+    }
+}
 
 	</style>
 	
@@ -144,7 +151,8 @@ iframe { max-width: 100%; }
 </head>
 <body>
 <div id="header">
- <p><center><a href="https://openconvos-data.tumblr.com"><img style="margin:0 auto; position:relative; top:2px; text-decoration: none; border: 0 none; width:270px; height:45px;"  src="https://raw.githubusercontent.com/Softdonkey/openconvos/main/main.png"></a></center></p>
+
+ <p><center><a href="https://openconvos.org"><img style="margin:0 auto; position:relative; top:-8px; text-decoration: none; border: 0 none; width:270px; height:55px;"  src="https://raw.githubusercontent.com/fsiamp/openconvos/master/main.png"></a></center></p>
 </div>
 
 
@@ -172,7 +180,7 @@ iframe { max-width: 100%; }
  
  
  	<form action="/tagged" method="get" onsubmit="return handleThis(this)">
-  		<input type="search"  style="font-size:15px; display:inline; 
+  		<input type="search"  style="font-size:18px; display:inline; 
         display: -moz-inline-box; width:75%; top:-20px; position:relative; padding:3px; border:1px solid #474747;  background-color: #FFF;" class="search-query" name="q" value="{SearchQuery}" onsubmit="return handleThis(this)" placeholder="Search Conversations" /> <input style="position:relative; top:-20px; font-size:15px;" type="submit" class="search-button" value="→"/>
   	</form>
 
@@ -185,9 +193,6 @@ iframe { max-width: 100%; }
       {block:Text}
       
         {block:Title}<a href="{Permalink}" class="h3"  style='font-size:22px; color:#2F4F4F; font-weight:lighter; line-height:100%; font-family: Helvetica;'><strong>{Title}</strong></a>{/block:Title}
-       
-<br>
-   
    {Body}
    
     
@@ -293,16 +298,12 @@ iframe { max-width: 100%; }
  
  
   	{/block:Posts}
-
-
       {block:Pagination}
             {block:PreviousPage}
                 <b><a class="b" style='font-size:17px;' href="{PreviousPage}">Previous Conversation</a></b>&nbsp;&nbsp;{/block:PreviousPage}{block:NextPage}<b><a class="b" style='font-size:17px;' href="{NextPage}" class="next">Next Conversation</a></b>
             {/block:NextPage}
           
-            | <b><a style='text-decoration:underline; font-size:17px;' href='https://openconvos-data.tumblr.com/submit'>Submit Conversation</a></b></object><br><br>
-          DOGE:D9wBpsvgcLQZSEnMdKB3Mg8DR7nviqaWo1 · BTC:115XUQvRLD7zUSHUYPUoQb1usgNq6v1RN4 
-          <BR><Br>
+            | <b><a style='text-decoration:underline; font-size:17px;' href='https://openconvos.org/submit'>Submit Conversation</a></b></object><br><br>
            
         {/block:Pagination}
     
@@ -310,12 +311,10 @@ iframe { max-width: 100%; }
       	{block:PermalinkPagination}
         
   			{block:NextPost}
+
   			<b><a class="b" style='font-size:17px;' href="{NextPost}">Previous Conversation</a></b>&nbsp;&nbsp;{/block:NextPost}{block:PreviousPost}<b><a class="b" style='font-size:17px;' href="{PreviousPost}">Next Conversation</a></b>
   			{/block:PreviousPost}
-              | <b><a style='text-decoration:underline;  font-size:17px;' href='https://openconvos-data.tumblr.com/submit'>Submit Conversation</a></b><br><br>
-              
-              DOGE:D9wBpsvgcLQZSEnMdKB3Mg8DR7nviqaWo1 · BTC:115XUQvRLD7zUSHUYPUoQb1usgNq6v1RN4 
-          <BR><Br>
+              | <b><a style='text-decoration:underline;  font-size:17px;' href='https://openconvos.org/submit'>Submit Conversation</a></b><br><br>
   		{/block:PermalinkPagination}
            
            
