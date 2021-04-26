@@ -1,6 +1,6 @@
 <B>OpenCONVOS - Privacy-enhanced directory that enables storing conversations securely</b>
 
-![alt tag](https://raw.githubusercontent.com/fsiamp/openconvos/master/main.png)
+![alt tag](https://raw.githubusercontent.com/softdonkey/openconvos/master/main.png)
 
 <b>URL</b>: https://openconvos.org
 
@@ -10,6 +10,6 @@ With OpenCONVOS everyone is able to search recent or old discussions of friends 
 
 At the same time, OpenCONVOS allows users to submit conversations directly to the system.
 
-![alt tag](https://raw.githubusercontent.com/fsiamp/openconvos/master/assets/conversation.png)
+![alt tag](https://raw.githubusercontent.com/softdonkey/openconvos/master/assets/conversation.png)
 
-![alt tag](https://raw.githubusercontent.com/fsiamp/openconvos/master/assets/example.png)
+![alt tag](https://raw.githubusercontent.com/softdonkey/openconvos/master/assets/example.png)
